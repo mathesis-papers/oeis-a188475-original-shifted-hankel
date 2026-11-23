@@ -28,9 +28,9 @@
         "name": "Wenlin Zhang"
       }
     ],
-    "concept_doi": null,
+    "concept_doi": "10.5281/zenodo.24415603",
     "current_version": 4,
-    "doi": null,
+    "doi": "10.5281/zenodo.24415604",
     "lean_source": {
       "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
       "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
