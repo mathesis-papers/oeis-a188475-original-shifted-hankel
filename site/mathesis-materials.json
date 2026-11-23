@@ -1,0 +1,11 @@
+{
+  "schema": "mathesis.materials.v1",
+  "work": "oeis-a188475-original-shifted-hankel",
+  "version": 4,
+  "repository_url": "https://github.com/mathesis-papers/oeis-a188475-original-shifted-hankel",
+  "site_url": "https://papers.trureturing.org/oeis-a188475-original-shifted-hankel/",
+  "doi": null,
+  "reading": {},
+  "slides": [],
+  "visualizations": []
+}

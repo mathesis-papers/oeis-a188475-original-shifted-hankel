@@ -1,0 +1,62 @@
+{
+  "status": "pass",
+  "arithmetic": "exact integers; fraction-free determinants with row pivoting",
+  "cubic_parameter_n": [
+    0,
+    24
+  ],
+  "adjacent_shift_matrix_orders": [
+    1,
+    25
+  ],
+  "moment_degrees": [
+    0,
+    52
+  ],
+  "orthogonality_degrees_each": [
+    0,
+    16
+  ],
+  "orthogonality_pairs": 289,
+  "empty_determinant": 1,
+  "first_ten_shifted_determinants": [
+    1,
+    3,
+    11,
+    29,
+    61,
+    111,
+    183,
+    281,
+    409,
+    571
+  ],
+  "parameter_values": [
+    -3,
+    0,
+    1,
+    2,
+    5
+  ],
+  "parameter_matrix_orders": [
+    1,
+    12
+  ],
+  "parameter_determinants_checked": 180,
+  "combinatorial_semilengths": [
+    1,
+    8
+  ],
+  "combinatorial_counts": [
+    0,
+    1,
+    2,
+    7,
+    22,
+    74,
+    252,
+    875
+  ],
+  "subsequence_convention": "Exchanges preserve the order inherited from the ground sequence.",
+  "all_index_coverage": "Written proof in note.tex; finite checks cover the stated ranges."
+}

@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:oeis-a188475-original-shifted-hankel:4:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "lineage": "collected:oeis-a188475-original-shifted-hankel:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a188475-original-shifted-hankel",
+      "scope": "in_scope",
+      "statement": "For every integer $N\\geq0$, with the determinant of an empty matrix\nequal to one,\n\\begin{equation}\n\\det[q(i+j+2)]_{0\\leq i,j<N}\n =1+2\\sum_{k=0}^{N-1}k^2.\n\\end{equation}\nIn particular, for every $n\\in\\N$,\n\\begin{equation}\n\\det[q(i+j+2)]_{0\\leq i,j\\leq n}\n =1+2\\sum_{k=0}^{n}k^2\n =\\frac{2n^3+3n^2+n+3}{3}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a188475-original-shifted-hankel:4:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "lineage": "collected:oeis-a188475-original-shifted-hankel:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a188475-original-shifted-hankel",
+      "scope": "in_scope",
+      "statement": "For every $N\\geq1$,\n\\begin{align}\n\\det[q(i+j+1)]_{0\\leq i,j<N}&=1-N,\\\\\n\\det[q(i+j)]_{0\\leq i,j<N}&=-\\sum_{k=0}^{N-2}k^2,\n\\end{align}\nwhere the last sum is empty for $N=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a188475-original-shifted-hankel:4:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "lineage": "collected:oeis-a188475-original-shifted-hankel:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a188475-original-shifted-hankel",
+      "scope": "in_scope",
+      "statement": "For $\\lambda\\in\\mathbb C$, define $q_\\lambda(r)$ by\n\\[\n\\sum_{r\\geq0}q_\\lambda(r)z^r\n =\\frac{z^2C(z)^2}{1-\\lambda z^2C(z)^2}.\n\\]\nFor every $N\\geq1$,\n\\begin{align*}\n\\det[q_\\lambda(i+j+2)]_{i,j<N}\n &=1+\\lambda\\sum_{k=0}^{N-1}k^2,\\\\\n\\det[q_\\lambda(i+j+1)]_{i,j<N}&=1-N,\\\\\n\\det[q_\\lambda(i+j)]_{i,j<N}&=-\\sum_{k=0}^{N-2}k^2.\n\\end{align*}\nIn particular, $q_2=q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a188475-original-shifted-hankel:4:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "lineage": "collected:oeis-a188475-original-shifted-hankel:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a188475-original-shifted-hankel",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$, $q(n)$ counts both the nonexchangeable pairs of\nsubsequences in the name of A137398 and the $2n$-step Grand Dyck paths\nin Callan's November 25, 2021 comment: balanced up/down paths starting\nwith an upstep, with no peak at height $1$ and no valley at height $-1$.\nHere, as in the source's examples, an admissible exchange must preserve\nthe order inherited from the ground sequence.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
+    }
+  ]
+}

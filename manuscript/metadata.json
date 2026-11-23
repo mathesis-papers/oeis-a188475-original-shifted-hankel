@@ -1,0 +1,23 @@
+{
+  "id": "oeis-a188475-original-shifted-hankel",
+  "revision": 4,
+  "problem_ids": [
+    "oeis-a188475-original-shifted-hankel"
+  ],
+  "topic": "Barry's original shifted Hankel conjecture, its parameter family and combinatorial source",
+  "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+  "creators": [
+    {
+      "name": "Haobo Ma",
+      "affiliation": "ChronoAI Pte Ltd, Singapore"
+    },
+    {
+      "name": "Wenlin Zhang",
+      "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"
+    }
+  ],
+  "abstract": "We prove Paul Barry's shifted Hankel conjecture in OEIS A188475, revision 2 (April 1, 2011): for every n>=0, det[q(i+j+2)]_(0<=i,j<=n)=(2n^3+3n^2+n+3)/3, by a moment-matrix cofactor argument extending Cigler's unit-descent formula (2011, Theorem A*). The same calculation gives both adjacent shifts and a parameter formula det[q_lambda(i+j+2)]_(i,j<N)=1+lambda*sum(k^2,k=0..N-1) for every complex lambda, with q_lambda defined by its Catalan generating function. A direct bijection relates the source's nonexchangeable subsequences to Callan's restricted Grand Dyck paths.",
+  "summary": "A complete cofactor proof, a one-parameter extension, adjacent shifts, exact normalization, and a direct combinatorial correspondence. Prior-work verdict: unclear (Mu-Wang overlap unresolved). Lili Mu and Yi Wang, Hankel determinants of shifted Catalan-like numbers, Discrete Mathematics 340(6) (2017), 1389-1396, doi:10.1016/j.disc.2016.09.035, is closely related work whose relationship to the cubic identity remains unresolved. Overlap is not excluded. No priority claim is made.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+}

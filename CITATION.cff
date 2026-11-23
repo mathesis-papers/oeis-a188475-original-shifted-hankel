@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it."
+title: "Barry's shifted Hankel conjecture and an extension of Cigler's formula"
+authors:
+  - name: "Haobo Ma"
+  - name: "Wenlin Zhang"
+date-released: "2026-11-23"
+version: "4"
+url: "https://mathesis-omega-research.apps.chrono-ai.fun/papers/oeis-a188475-original-shifted-hankel?version=4"
+license: "CC-BY-4.0"
