@@ -31,6 +31,7 @@
     "concept_doi": "10.5281/zenodo.24415603",
     "current_version": 4,
     "doi": "10.5281/zenodo.24415604",
+    "kind": "note",
     "lean_source": {
       "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
       "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
@@ -55,10 +56,12 @@
     "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
     "versions": [
       {
+        "changelog": null,
         "previous_version": null,
         "published_on": "2026-11-23T17:31:57.326471601Z",
         "revision": "4",
-        "version": 4
+        "version": 4,
+        "version_label": null
       }
     ],
     "work": "oeis-a188475-original-shifted-hankel"
